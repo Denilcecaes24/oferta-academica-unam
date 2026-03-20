@@ -1,0 +1,154 @@
+:root{
+  --color-unam-gold: #BD8D24;
+  --color-unam-blue: #202c56;
+  --color-rojo: #c3171c;
+  --color-gris: #c1c4c7;
+  --color-unam-yellow: #faae39;
+  --color-azul-cielo: #3fbaea;
+  --color-naranja: #f28426;
+  --color-verde: #41a14e;
+}
+
+    .cont-pest-act {
+       display: none;
+    }
+
+    .tabs5 {
+      display: flex;
+      overflow-x: auto;
+      gap: 10px;
+      padding: 10px 0;
+      margin-top: 20px;
+    }
+
+    .tab5 {
+      padding: 8px 12px;
+      background: #fff;
+      border: 1px solid #f7f7f7;
+      color: var(--color-unam-blue);
+      border-radius: 5px;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background 0.3s;
+      font-size: 16px;
+      font-weight: 600;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+    }
+
+    .tab5.active {
+      background: var(--color-unam-blue);
+      color: white;
+      font-weight: bold;
+    }
+
+    .slider-container5 {
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+      border-radius: 15px;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+
+    }
+
+    .slider-track5 {
+      display: flex;
+      transition: transform 0.5s ease;
+      background-color: white;
+    }
+
+    .slide5 {
+      width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+        border: 1px solid #e4e4e4;
+        border-radius: 15px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .cont-pd-16-2 {
+    padding: 16px;
+  }
+
+  .box-title-img-cu-3{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+
+    .box-title-img-cu-3 .title-cu {
+    font-size: 22px;
+    font-weight: 700;
+    color: #010645;
+    padding: 0 !important;
+    margin: 0 8px 0 0 !important;
+  }
+
+  .box-title-img-cu-3 .conf-img-cu {
+    display: inline-block;
+    width: 12%;
+    max-width: 50px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+  }
+
+  .txt-info-cu-2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    padding: 0 !important;
+    margin: 8px 0 !important;
+  }
+
+   .btn-link-cu-2 {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    background-color: var(--color-unam-blue);
+    font-size: 17px;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin: 0 0 0 0;
+    text-decoration: none;
+    color: white;
+  }
+
+    .img-princ-cu-2{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+
+    /* Aplica el difuminado desde arriba hacia abajo */
+      mask-image: linear-gradient(to bottom, transparent 0%, black 40%);
+      -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 40%);
+
+      /* Mejora suavizado para navegadores modernos */
+      mask-mode: alpha;
+      -webkit-mask-mode: alpha;
+  }
+
+    .img-tab-2{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin: 0 10px 0 0;
+  }
+
+
+@media(max-width: 899px) {
+   
+.cont-pest-act {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+}

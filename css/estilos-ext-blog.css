@@ -1,0 +1,249 @@
+.titulo-princ-sim{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.subtitulo-princ-sim {
+    font-size: 20px;
+    font-weight: 600;
+    color: #9c6b01;
+    text-align: center;
+}
+
+.cont-etiq-sim {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.box-ind-sim{
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    border: 1px solid #000630;
+    border-radius: 15px;
+    margin: 0;
+    padding: 8px;
+}
+
+.box-ind-sim p{
+    font-size: 18px;
+    color: #000630;
+    padding: 0 !important;
+    margin: 0 !important;
+    text-align: center;
+}
+
+/*
+.enlace-sim {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    background-color: #9c6b01;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 16px;
+}
+    */
+
+    .enlace-sim2 {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    background-color: #01137a;
+    border-radius: 50%;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    text-align: center;
+    margin: 0;
+    padding: 8px 14px;
+}
+
+/*
+.enlace-sim {
+    display: inline-block;
+    color: #9c6b01;
+    font-size: 36px;
+    text-decoration: none; 
+}
+*/
+
+.cont-comenzar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.span-mat {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    background-color: green;
+    border-radius: 8px;
+    padding: 4px 6px;
+    margin: 0 0 4px 0;
+}
+
+.cont-sim-nuevo{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+}
+
+.etiq-nuevo {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: #02033d;
+    border-radius: 8px;
+    padding: 4px 6px;
+    margin: 0 0 4px 0;
+}
+
+.cont-img-ex {
+    position: relative; /* Establece el contenedor como referencia para posicionar elementos absolutos */
+  display: inline-block; /* Ajusta al tamaño de la imagen */
+}
+
+.cont-img-ex .img-sim1 {
+  display: block; /* Para eliminar espacios debajo de la imagen */
+  width: 100%; /* O el tamaño que necesites */
+}
+
+.cont-img-ex .texto-grat {
+  position: absolute; /* Posiciona el span relativo al contenedor */
+  top: 10px; /* Ajusta la distancia desde abajo */
+  left: 10px;  /* Ajusta la distancia desde la derecha */
+  background-color: #a17807; /* Fondo semi-transparente para que el texto se vea */
+  color: white;
+  padding: 2px 6px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.cont-img-ex .texto-grat2 {
+  position: absolute; /* Posiciona el span relativo al contenedor */
+  top: 10px; /* Ajusta la distancia desde abajo */
+  left: 80px;  /* Ajusta la distancia desde la derecha */
+  background-color: #01137a; /* Fondo semi-transparente para que el texto se vea */
+  color: white;
+  padding: 2px 6px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.cont-eti-area{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0 0 10px 0;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.txt-area1{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 3px 6px;
+    margin: 0 4px;
+    display: inline-block;
+}
+
+.txt-practica {
+    font-size: 17px;
+    font-weight: 500;
+    color: #000630;
+    text-align: center;
+    padding: 0;
+    margin: 10px 0 10px 0;
+}
+
+.txt-ind-pract {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000630;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.txt-ind-pract i {
+    font-size: 20px;
+    color: #000630;
+}
+
+.txt-enlace-res {
+    font-size: 18px;
+    font-weight: 600;
+    color: #01137a;
+    padding: 0;
+    margin: 0 16px 0 0;
+}
+
+.txt-ind-exam{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    padding: 3px 6px;
+    margin: 4px 4px;
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+
+@media(max-width: 699px) {
+
+    .titulo-princ-sim{
+    font-size: 24px;
+   
+}
+
+.subtitulo-princ-sim {
+    font-size: 18px;
+}
+
+.box-ind-sim p{
+    font-size: 15px;
+}
+
+.enlace-sim {
+   
+    font-size: 16px;
+
+}
+
+}
+
+
+

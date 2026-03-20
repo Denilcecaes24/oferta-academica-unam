@@ -1,0 +1,103 @@
+
+.cfilter{
+    width: 100%; /* Ajusta el ancho según sea necesario */
+    overflow-x: auto; /* Habilita el desplazamiento horizontal */
+    white-space: nowrap; /* Evita que los elementos se envuelvan en una nueva línea */
+    padding: 10px 0; /* Opcional: espaciado interno */
+    
+    scrollbar-width: thin; /* Firefox: scrollbar delgado */
+    scrollbar-color: #888 #f0f0f0; /* Firefox: color del thumb y del track */
+}
+
+/* Personalización de las barras de desplazamiento para navegadores Webkit (Chrome, Safari) */
+.cfilter::-webkit-scrollbar {
+    height: 8px; /* Altura del scrollbar horizontal */
+}
+
+.cfilter::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color del scrollbar */
+    border-radius: 10px; /* Bordes redondeados del scrollbar */
+}
+
+.cfilter::-webkit-scrollbar-track {
+    background-color: #f0f0f0; /* Color del fondo del scrollbar */
+}
+
+.cf-img-txt{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+.cfilt-image{
+    width: 8%;
+    min-width: 80px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px 0 0;
+    padding: 0;
+}
+
+.cfilt-title{
+    width: 90%;
+    height: auto;
+    margin: auto 0;
+    padding: 0;
+}
+
+.cfilter-cont {
+        display: flex; /* Usa Flexbox para alinear los elementos horizontalmente */
+}
+
+.cfilter-cont p{
+    display: inline-block; /* Asegura que los elementos se comporten como bloques en línea */
+    margin: 0 15px 0 0; /* Espaciado entre los elementos, ajusta según sea necesario */
+    font-size: 15px; /* Tamaño de fuente */
+    color: black;
+
+}
+
+
+.cfilter-cont span{
+     display: inline-block; /* Asegura que los elementos se comporten como bloques en línea */
+    margin: 0 15px 0 15px; /* Espaciado entre los elementos, ajusta según sea necesario */
+    font-size: 14px; /* Tamaño de fuente */
+    padding: 5px 15px;
+    background-color: white;
+    border: 1px solid #8a8a8a;
+    border-radius: 15px;
+    color: #8a8a8a;
+}
+
+.cfilter-cont .op{
+     display: inline-block; /* Asegura que los elementos se comporten como bloques en línea */
+    margin: 0 15px 0 15px; /* Espaciado entre los elementos, ajusta según sea necesario */
+    font-size: 14px; /* Tamaño de fuente */
+    padding: 5px 15px;
+    background-color: #8a8a8a;
+    border: 1px solid #8a8a8a;
+    border-radius: 15px;
+    color: white;
+}
+
+
+
+.cfilter-cont span:last-child{
+    margin: 0 0 0 15px; /* Espaciado entre los elementos, ajusta según sea necesario */
+}
+
+@media (min-width:100px) and (max-width: 969px){
+    .cfilt-image{
+    width: 10%;
+    min-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+   }
+}
+
+  

@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+    --color-dorado-1: #bf8c22;
+    --color-azul-1: #06092f;
+}
+
+
+/* estilos indiv. */
+.mbo-10{
+  margin-bottom: 10px;
+}
+.mbo-16{
+  margin-bottom: 16px;
+}
+.mbo-20{
+  margin-bottom: 20px;
+}
+.mbo-30{
+  margin-bottom: 30px;
+}
+.mbo-40{
+  margin-bottom: 40px;
+}
+.mbo-50{
+  margin-bottom: 50px;
+}
+
+
+.mto-10{
+  margin-top: 10px;
+}
+.mto-16{
+  margin-top: 16px;
+}
+.mto-20{
+  margin-top: 20px;
+}
+.mto-30{
+  margin-top: 30px;
+}
+.mto-40{
+  margin-top: 40px;
+}
+.mto-50{
+  margin-top: 50px;
+}
+
+.mtb-10{
+  margin: 10px 0;
+}
+.mtb-16{
+  margin: 16px 0;
+}
+.mtb-20{
+  margin: 20px 0;
+}
+.mtb-30{
+  margin: 30px 0;
+}
+.mtb-40{
+  margin: 40px 0;
+}
+.mtb-50{
+  margin: 50px 0;
+}
+
+.mle-10 {
+    margin-left: 10px;
+}
+
+.mle-16 {
+    margin-left: 16px;
+}
+
+.mle-20 {
+    margin-left: 20px;
+}
+
+.txt-centerr {
+  text-align: center;
+}
+
+.txt-startt {
+  text-align: start;
+}
+
+.txt-endd {
+  text-align: end;
+}
+
+.c-red-eco {
+  color: var(--color-red-eco);
+}
+
+.c-black{
+  color: black;
+}
+
+.c-gray{
+  color: #8b8b8b;
+}
+
+/* estilos de banner princ */
+
+.cont-banner-princ {
+    width: 100%;
+    height: auto;
+    padding: 60px 0;
+    margin: 0 auto;
+    background-image: url(/img/bg_unam@2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-shadow {
+    width: 90%;
+    max-width: 1200px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding: 16px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.st-h1 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.txt-banner {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+/* estilo de calendario */
+
+.sec-princ-1 {
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+.cont-norm-1 {
+    width: 90%;
+    max-width: 1200px;
+    height: auto;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.cont-hidd{
+    display: block;
+}
+
+.cont-hidd2{
+    display: none;
+}
+
+.cont-vis-tel {
+    display: none;
+}
+
+
+@media(max-width: 700px) {
+    .cont-banner-princ {
+        padding: 30px 0;
+    }
+
+        .st-h1 {
+        font-size: 32px;
+    
+    }
+
+    .txt-banner {
+        font-size: 20px;
+      
+    }
+
+    .cont-hidd{
+      display: none;
+    }
+
+    .cont-hidd2{
+      display: block;
+    }
+}
+
+@media (max-width: 992px) {
+    .cont-vis-tel {
+        display: block;
+    }
+}
+
+
+
